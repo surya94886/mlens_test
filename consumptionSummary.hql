@@ -1,2 +1,0 @@
-
-ADD FILE consumptionSummary.py;
