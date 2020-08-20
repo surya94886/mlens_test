@@ -5,4 +5,4 @@
 --switch to use videoDB
 USE videoDB;
 
-SELECT courseID, COUNT(DISTINCT userID) AS uniqueUserCount FROM user_course_activity GROUP BY courseID SORT BY uniqueUserCount DESC LIMIT ${hiveconf:N};
+SELECT courseID, COUNT(DISTINCT userID) AS uniqueUserCount FROM user_course_activity GROUP BY courseID SORT BY uniqueUserCount DESC LIMIT ${hiveconf};
